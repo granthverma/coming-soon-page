@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Rubik+Bubbles&display=swap');
+
+:root{
+  
+    --purple: #5a08d3;
+    --black: #000000; 
+   --white :#edf7f6;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+
+
+body{
+   height: 100%;
+   background-color: var(--purple);
+   font-family: "Rubik Bubbles" ,sans-serif;
+   
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+ .banner {
+  background-color: var(--white);
+  padding-bottom: 30px;
+  height: 120px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0,0.4);
+ }
+ 
+ h1{
+  font-size: 50px;
+  text-align: center;
+  color: var(--black);
+ }
+
+ p{
+   margin-left: 58%;
+   font-size: 25px;
+
+ }
